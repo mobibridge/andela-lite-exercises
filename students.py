@@ -1,8 +1,20 @@
-student=dict()
-student['firstname']='hillary'
-student['lastname']='muriuki'
-student['dob']='1990'
-student['phonenumber']='0727622824'
+from datetime import datetime
 
-print (student)
-print (students['lastname'])
+current_year=datetime.now().year
+
+student=dict()
+student={'name':['hillary','muriuki']}
+student.update({'dob':1990})
+student.update({'phonenumber':'0727622824'})
+
+age=current_year-student.get('dob')
+
+
+full_name = student.get('name')
+print (full_name[0],full_name[1])
+print (student.get('dob'))
+print (student.get('phonenumber'))
+print (age)
+
+
+
