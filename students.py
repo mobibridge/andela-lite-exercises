@@ -5,3 +5,4 @@ student['dob']='1990'
 student['phonenumber']='0727622824'
 
 print (student)
+print (students['lastname'])
