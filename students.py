@@ -11,6 +11,7 @@ age=current_year-student.get('dob')
 
 
 full_name = student.get('name')
+print (student)
 print (full_name[0],full_name[1])
 print (student.get('dob'))
 print (student.get('phonenumber'))
